@@ -1,0 +1,95 @@
+/* Container chính */
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+  }
+  
+  
+  /* Tiêu đề trang */
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  /* Định dạng cho các input */
+  input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    transition: border 0.3s ease, background-color 0.3s ease;
+  }
+  
+  input:focus {
+    border-color: #4CAF50;
+    background-color: #e8f5e9;
+    outline: none;
+  }
+  
+  /* Các nút */
+  button {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+    margin-bottom: 10px;
+  }
+  
+  /* Nút Thêm sản phẩm */
+  button:first-child {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  button:first-child:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 128, 0, 0.2);
+  }
+  
+  button:first-child:active {
+    transform: scale(0.98);
+  }
+  
+  /* Nút Quay lại */
+  .cancel-button {
+    background-color: #f44336;
+    color: white;
+    width: 100%;
+  }
+  
+  .cancel-button:hover {
+    background-color: #e53935;
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(255, 0, 0, 0.2);
+  }
+  
+  .cancel-button:active {
+    transform: scale(0.98);
+  }
+  
+  /* Thêm hiệu ứng focus cho input */
+  input:focus {
+    border-color: #4CAF50;
+    background-color: #e8f5e9;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+  }
+  
+  

@@ -1,0 +1,76 @@
+/* index.css */
+
+/* Đặt lại một số style mặc định của trình duyệt để đảm bảo hiển thị đồng nhất */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif; /* Font chữ mặc định cho ứng dụng */
+    background-color: #f4f4f9; /* Màu nền tổng thể */
+    color: #333; /* Màu chữ mặc định */
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  /* Style chung cho các nút */
+  button {
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+  
+  /* Style cho link để trông giống nút */
+  button, a {
+    text-decoration: none;
+  }
+  
+  /* Style chung cho tiêu đề */
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    margin-bottom: 1rem;
+  }
+  
+  /* Style cho input và các trường nhập liệu */
+  input, textarea {
+    font-family: inherit;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  input:focus, textarea:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  /* Style cho các container và layout */
+  .container {
+    max-width: 1200px;
+    padding: 20px;
+    margin: auto;
+  }
+  
+  /* Class để căn giữa */
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
